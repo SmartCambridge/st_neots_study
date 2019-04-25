@@ -15,8 +15,8 @@ API_SCHEMA = os.getenv('API_SCHEMA', 'https://tfc-app1.cl.cam.ac.uk/api/docs/')
 API_TOKEN = os.getenv('API_TOKEN', None)
 assert API_TOKEN, 'API_TOKEN environment variable not set'
 
-zones = ['a428_east', 'a428_west', 'a1m_north', 'a1m_south']
-years = [2019]
+zones = ['a428_east', 'a428_west', 'a1m_north', 'a1m_south', 'a428_caxton_east', 'a428_caxton_west']
+years = [2018, 2019]
 
 # /api/v1/zone/history/a428_east/?start_date=2019-04-01&end_date=2019-04-30
 # /api/v1/zone/history/a428_east/?start_date=2019-04-01&end_date=2019-04-30
